@@ -1,0 +1,54 @@
+fieldset {
+  border: none;
+  margin-bottom: 2em;
+}
+legend {
+  font-size: 2em;
+  font-family: 'BrookeShappell10';
+}
+td {
+  padding: 0.5em 1em;
+  text-align: center;
+  &.left {
+    text-align: left;
+  }
+}
+.header {
+  td {
+    font-size: 1.5em;
+    font-family: 'BrookeShappell10';
+    padding: 0.8em 0 0;
+    text-align: left;
+  }
+  &.first {
+    td {
+      padding: 0;
+    }
+  }
+}
+thead {
+  td {
+    padding: 0 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+}
+.workbooks {
+  input[type="text"] {
+    width: 50px;
+  }
+}
+input {
+  font-family: tahoma;
+}
+input[type="submit"] {
+  border: 1px solid black;
+  background: white;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid #444;
+    color: #444;
+  }
+}

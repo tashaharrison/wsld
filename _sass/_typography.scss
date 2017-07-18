@@ -1,0 +1,46 @@
+a.site-title {
+  font-family: 'Villa';
+  font-size: 3em;
+  text-decoration: none;
+  color: $text-color;
+}
+body {
+  font-family: tahoma;
+}
+p, li {
+  text-align: left;
+  font-size: 0.95em;
+  line-height: 1.7em;
+  &.intro {
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'BrookeShappell10';
+  }
+}
+.site-nav {
+  .page-link {
+    font-family: 'BrookeShappell10';
+    font-size: 1.5em;
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+      color: lighten($text-color, 30%);
+    }
+  }
+}
+h1 {
+  font-family: 'BrookeShappell10';
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-family: 'BrookeShappell10';
+  font-size: 2em;
+  margin-bottom: 0;
+}
+h3 {
+  font-family: 'BrookeShappell10';
+  font-size: 1.5em;
+  margin-bottom: 0.2em;
+}

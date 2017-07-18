@@ -1,0 +1,28 @@
+body {
+
+}
+.front {
+  .page-content {
+    text-align: center;
+    min-height: 650px;
+  }
+}
+.page-content {
+  min-height: 600px;
+}
+.site-header {
+  box-shadow: 0 0.1em 0.6em #191919;
+  text-align: center;
+}
+.footer-col-3 {
+  text-align: right;
+  position: relative;
+  img {
+    position: absolute;
+    right: 0;
+    top: -8.6em;
+  }
+}
+#mc_embed_signup form {
+  width: 50%;
+}
